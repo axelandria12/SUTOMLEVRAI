@@ -11,7 +11,8 @@ namespace SUTOMLEVRAI
     {
         static void Main(string[] args)
         {
-            Console.Write();
+<<<<<<< HEAD
+            //Console.Write();
             Random random = new Random();
             int[] taille = new int[4];
             taille[0] = 6;
@@ -23,6 +24,10 @@ namespace SUTOMLEVRAI
             int taille1 = taille[tirage1];
             Console.WriteLine(taille1);
             
+=======
+            Console.WriteLine("Trouvez le mot mystère");
+            Console.WriteLine("  123456789");
+>>>>>>> 5be445b54c431df0eca3d401b57549ec2f556ed7
             string[] liste = new string[12];
             liste[0] = "ASPHYXIEZ";
             liste[1] = "HYDROXYDE";
@@ -36,6 +41,7 @@ namespace SUTOMLEVRAI
             liste[9] = "FOURVOYEZ";
             liste[10] = "FLAMBOYEZ";
             liste[11] = "CHATOYIEZ";
+<<<<<<< HEAD
             
             int tirage = random.Next(0,11);
 
@@ -79,6 +85,17 @@ namespace SUTOMLEVRAI
             //        }
             //        Console.WriteLine(devine);
             //}
+=======
+            Random random = new Random();
+            int tirage = random.Next(0,11);
+            //Console.WriteLine(liste[tirage]);
+            string mystere = liste[tirage];
+            Console.WriteLine(mystere[0].ToString().ToUpper());
+            string devine = Console.ReadLine();
+            for (int i = 1; i < devine.Length; i++)
+            { 
+            }
+>>>>>>> 5be445b54c431df0eca3d401b57549ec2f556ed7
 
 
 
