@@ -64,7 +64,7 @@ namespace SUTOMLEVRAI
                 {
                     Console.ForegroundColor = (ConsoleColor.Green);
                     Console.Write(devine[i]);
-                    
+                    Console.WriteLine("cole");
                 }
                 
                 //Console.WriteLine(devine);
